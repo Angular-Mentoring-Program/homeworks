@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {User} from "../user-model";
+import {User} from '../user-model';
 
 @Component({
   selector: 'app-user',
@@ -11,12 +11,12 @@ export class UserComponent implements OnInit {
     {
       id: 1,
       firstName: 'Maria',
-      lastName:'Ivanova'
+      lastName: 'Ivanova'
     },
     {
       id: 3,
       firstName: 'Krasi',
-      lastName:'Todorova'
+      lastName: 'Todorova'
     },
   ];
   constructor() { }
